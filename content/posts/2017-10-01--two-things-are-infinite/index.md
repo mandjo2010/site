@@ -1,6 +1,6 @@
 ---
-title: Two things are infinite the universe and human stupidity
-subTitle: And I'm not sure about the universe.
+title: Finding data from sources
+subTitle: Where are those data.
 category: "sayings"
 cover: photo-1490474418585-ba9bad8fd0ea-cover.jpg
 ---

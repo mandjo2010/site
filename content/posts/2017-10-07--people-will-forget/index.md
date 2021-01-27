@@ -1,5 +1,5 @@
 ---
-title: People will forget what you said, people will forget what you did
+title: LiDAR processing
 subTitle: But people will never forget how you made them feel.
 category: "sayings"
 cover: photo-1489900464632-5f5907edda24-cover.jpg

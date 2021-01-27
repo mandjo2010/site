@@ -1,5 +1,5 @@
 ---
-title: Be who you are and say what you feel
+title: Going 3D
 subTitle: Because those who mind don't matter, and those who matter don't mind
 category: "sayings"
 cover: photo-1489824904134-891ab64532f1-cover.jpg

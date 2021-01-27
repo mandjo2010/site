@@ -9,20 +9,20 @@ module.exports = {
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Mandjo Béa Boré",
+  authorTwitterAccount: "kozoubea",
   // info
-  infoTitle: "greg lobinski",
-  infoTitleNote: "personal blog",
+  infoTitle: "Mandjo Béa Boré",
+  infoTitleNote: "GeoDeveloper & Designer",
   // manifest.json
   manifestName: "PersonalBlog - a blog starter for GatsbyJS",
-  manifestShortName: "PersonalBlog", // max 12 characters
+  manifestShortName: "GeoDeveloper&Designer", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "john@doe.com",
+  contactEmail: "boremandjo@gmail.com",
   // social
   authorSocialLinks: [
     { name: "github", url: "https://github.com/greglobinski" },
