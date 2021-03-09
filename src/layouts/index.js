@@ -9,6 +9,7 @@ import withRoot from "../withRoot";
 import theme from "../styles/theme";
 import globals from "../styles/globals";
 
+
 import { setFontSizeIncrease, setIsWideScreen } from "../state/store";
 
 import asyncComponent from "../components/common/AsyncComponent/";

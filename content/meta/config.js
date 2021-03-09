@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "PersonalBlog - a blog starter for GatsbyJS", // <title>
   shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
   siteDescription: "PersonalBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteUrl: "https://mandjo.in",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
@@ -13,11 +13,11 @@ module.exports = {
   authorTwitterAccount: "kozoubea",
   // info
   infoTitle: "Mandjo Béa Boré",
-  infoTitleNote: "GeoDeveloper & Designer",
+  infoTitleNote: "GeoDeveloper GeoDesigner",
   // manifest.json
   manifestName: "PersonalBlog - a blog starter for GatsbyJS",
   manifestShortName: "GeoDeveloper&Designer", // max 12 characters
-  manifestStartUrl: "/",
+  manifestStartUrl: "/blog",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
@@ -25,8 +25,17 @@ module.exports = {
   contactEmail: "boremandjo@gmail.com",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "https://facebook.com/greglobinski" }
+
+    { name: "github", url: "https://github.com/mandjo2010" },
+    { name: "linkedin", url: "http://linkedin.com/in/mandjo-béa-boré-561181159" },
+    { name: "facebook", url: "https://facebook.com/mandjo2010" },
+    { name: "medium", url: "https://medium.com/@nestormandjo" },
+    { name: "email", url: "mailto:boremandjo@gmail.com" },
+
+    { name: "twitter", url: "https://twitter.com/kozoubea" },
+    { name: "quora", url: "https://www.quora.com/Mandjo-Béa-Boré" },
+
   ]
 };
+
+

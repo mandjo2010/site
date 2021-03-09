@@ -2,36 +2,8 @@
 title: About
 ---
 
-This is a demo site of the [PersonalBlog](https://github.com/greglobinski/gatsby-starter-personal-blog) GatsbyJS starter.
+I am dedicated to understanding territories and all related activities. My work is primarily based in collecting, analysing, stocking and spreading awareness by visualizing data. I fetch data from ground, governments data portals, satellites or from APIs to create maps, cards that display the statistics as well as charts. I use spatial data science and web development modern tools such as Python, React, Material UI, Charts.js including Esri & satellite products and so on.
 
-The starter is a ready to use, easy to customize 'like theme' starter. It has everything what blog should have and some more.
+I began my adventure in 2008 as an entry-level research assistant after my BSc in Environmental Studies. Later, after receiving my MSc & Advanced MSc degrees in GISciences both from AgroParisTech University, I joined Rio Tinto mining company for long intern project. I also had a great opportunity to work with some International Research Institutes in France on mapping project.
 
-### Standard features:
-
-* Easy editable content in **Markdown** files (posts, pages and parts)
-* **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-* **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-* **Comments** (Facebook)
-* **Images** lazy loading and `webp` support (gatsby-image)
-* Post **categories** (post list filtering)
-* Full text **searching** (Algolia)
-* **Contact** form (Netlify form handling)
-* **RSS** feed
-* **PWA** (manifest.json, offline support, favicons)
-* Google **Analytics**
-* **Favicons** generator (node script)
-* **Material UI** (@next)
-
-### Advanced features:
-
-* Easy customizable base **styles** via `theme` object (fonts, colors, sizes)
-* **Components** lazy loading (social sharing, comments)
-* **ESLint** (google config)
-* **Prettier** code styling
-* Custom webpack `CommonsChunkPlugin` settings
-* Webpack `BundleAnalyzerPlugin`
-* Contact **form validation** (react-material-ui-form-validator)
-
-## Instructions
-
-For detailed instructions go to [Front-end web development with Greg](https://dev.greglobinski.com/gatsby-starter-personal-blog/).
+Then, I moved on to Python career tracks, web developolment at DataCamp and other online schools which helped me build up my Data Science, programming and Web development skills. I love learning and sharing, and in my free time, I enjoy doing sport and volunteering. If you are interested in cooperation or in any way I could help, please feel free to contact me.

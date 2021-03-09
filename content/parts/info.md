@@ -2,4 +2,4 @@
 title: info
 ---
 
-Design and build applications to support Geographic Information Systems (GIS) data.
+Design and build applications to support spatial data - spatial big data.
