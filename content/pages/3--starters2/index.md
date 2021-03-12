@@ -18,9 +18,9 @@ GIS Project Manager - Data Analyst - Web Development - Python Programmer - Envir
 
 # AWARDS AND HONORS
 
-- 2010 UNESCO Scholarship of Excellence, Interdisciplinary Programme in Sustainable Development (Paris)
+- 2010 `UNESCO Scholarship of Excellence`, Interdisciplinary Programme in Sustainable Development (Paris)
 
-- 2013 Geospatial Capacity building Scholarship, France National Center for Space Studies (CNES)
+- 2013 `Geospatial Capacity Building Scholarship` , France National Center for Space Studies (CNES)
 
 ...
 
