@@ -1,9 +1,9 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "PersonalBlog - a blog starter for GatsbyJS", // <title>
-  shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
-  siteDescription: "PersonalBlog is a GatsbyJS starter.",
+  siteTitle: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner", // <title>
+  shortSiteTitle: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner", // <title> ending for posts and pages
+  siteDescription: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner",
   siteUrl: "https://mandjo.in",
   pathPrefix: "",
   siteImage: "preview.jpg",
@@ -13,9 +13,10 @@ module.exports = {
   authorTwitterAccount: "kozoubea",
   // info
   infoTitle: "Mandjo Béa Boré",
-  infoTitleNote: "GeoDeveloper GeoDesigner",
+    // manifest.json
+  infoTitleNote: "GeoDesigner|GeoDeveloper",
   // manifest.json
-  manifestName: "PersonalBlog - a blog starter for GatsbyJS",
+  manifestName: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner",
   manifestShortName: "GeoDeveloper&Designer", // max 12 characters
   manifestStartUrl: "/blog",
   manifestBackgroundColor: colors.background,
@@ -30,10 +31,10 @@ module.exports = {
     { name: "linkedin", url: "http://linkedin.com/in/mandjo-béa-boré-561181159" },
     { name: "facebook", url: "https://facebook.com/mandjo2010" },
     { name: "medium", url: "https://medium.com/@nestormandjo" },
-    { name: "email", url: "mailto:boremandjo@gmail.com" },
-
-    { name: "twitter", url: "https://twitter.com/kozoubea" },
     { name: "quora", url: "https://www.quora.com/Mandjo-Béa-Boré" },
+    { name: "email", url: "mailto:boremandjo@gmail.com" },
+    { name: "twitter", url: "https://twitter.com/kozoubea" }
+
 
   ]
 };

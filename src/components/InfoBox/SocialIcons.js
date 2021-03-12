@@ -22,8 +22,8 @@ const styles = theme => ({
     flexWrap: "wrap"
   },
   svg: {
-    width: "20px",
-    height: "20px",
+    width: "32px",
+    height: "32px",
     fill: theme.info.colors.socialIcons,
     transition: "all .5s"
   },
@@ -40,7 +40,7 @@ const styles = theme => ({
   // }
   link: {
     display: "block",
-    padding: "12px",
+    padding: "5px",
     "&[title='github']": {
       "& svg": {
         fill: "#181717"
