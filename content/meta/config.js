@@ -27,11 +27,17 @@ module.exports = {
   // social
   authorSocialLinks: [
 
+
     { name: "github", url: "https://github.com/mandjo2010" },
     { name: "linkedin", url: "http://linkedin.com/in/mandjo-béa-boré-561181159" },
-    { name: "facebook", url: "https://facebook.com/mandjo2010" },
-    { name: "medium", url: "https://medium.com/@nestormandjo" },
     { name: "quora", url: "https://www.quora.com/Mandjo-Béa-Boré" },
+
+
+
+    { name: "medium", url: "https://medium.com/@nestormandjo" },
+    { name: "facebook", url: "https://facebook.com/mandjo2010" },
+
+
     { name: "email", url: "mailto:boremandjo@gmail.com" },
     { name: "twitter", url: "https://twitter.com/kozoubea" }
 
