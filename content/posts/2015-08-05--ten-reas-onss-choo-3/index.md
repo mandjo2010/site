@@ -1,5 +1,5 @@
 ---
-title: Ten Reasons to choose the SILAT GIS advanced MSc
+title: Ten Reasons to choose SILAT 
 subTitle: Are you considering studying Spacial Data Science in France ?
 category: "Spatial Data"
 cover: photo-1456518563096-0ff5ee08204e-cover.png
@@ -7,7 +7,7 @@ cover: photo-1456518563096-0ff5ee08204e-cover.png
 
 Wondering what happens when computer science and geography come together? The power to collect, store, manage, query, visualize spatial data, and output maps is unleashed, providing tools to inform choices about where we live or where things happen! That's what the advanced MSc SILAT will teach you, and in this post, I will give you top 10 reasons why I decided to choose the SILAT MSc.
 
-![unsplash.com](./photo-1456518563096-0ff5ee08204e.png)
+![unsplash.com](./photo-1456518563096-0ff5ee08204e-cover.png)
 
 SILAT stands for "Systèmes d’informations localisées pour l’aménagement des territoires" [Localized Information Systems for Land Management] and it's one of AgroParisTech University's executive program. The MSc is based at "Maison de la Télédétection " [House of Remote Sensing], in South of France. Lecturers are mainly from academic and research institutions (AgroParisTech, CIRAD, IRD and Irstea) dedicated to remote sensing and broadly to spatial information.
 

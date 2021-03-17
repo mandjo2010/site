@@ -34,8 +34,14 @@ These choropleth maps are made from the data of the electoral constituencies for
 
 The same dataset has been used to develop a range of alternative thematic maps that tell the story of the 2015 general election of the United Kingdom of Great Britain and Northern Ireland. The thematic map showing the winning political party in each area using a unique value(winning party) symbolized of by the political party. A graduate color (choropleth) map that show the share of the votes that the winning members of Parliament received.
 
-# 3. Alaska fire Map
+# 3. Alaska Fire Service (AFS)
 
-Here, I "paint" fire in the last 80 years of Alaska history(starting from 1940), burned the most acres using the natural breaks (Jenks) classification method.
+AFS provides wildland fire management. I use QGIS software to access AFS's GIS  <a href="https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices" target="_blank">data Service</a> from ArcGIS Server.  
 
-Name the 10th largest fire in terms of acres burned. What year this fire occurred and how many acres it burned?
+After exploring AFS Data in QGIS, I display fire perimeters in a category of fireseasons and apply some filter to extract  desired information from the dataset. From that analysis, I find out that in 1950, the fire called Little Black River burned the most acres from 1940(80 years) in Alaska Fire History. 
+
+I also use the Group Stats tool in QGIS to extract data statistics (burn area and burn counts) from historic fire perimeters data of Alaska dataset.
+
+
+
+![StyledBlog](./gatsby-styled-blog-starterrtgsig.PNG)

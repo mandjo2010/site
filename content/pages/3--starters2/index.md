@@ -6,7 +6,7 @@ menuTitle: Portfolio
 
 # PROJECTS
 
-View some of my projects <a href="https://boregatsbytest.gtsb.io/" target="_blank">here</a>.
+View some of my projects <a href="https://lesprojects.gtsb.io/" target="_blank">here</a>.
 
 # SERVICES
 

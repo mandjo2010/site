@@ -134,7 +134,7 @@ var point: Point(37.31, -0.15)
 var Sentinel: ImageCollection "Sentinel-2 MSI: MultiSpectral Instrument, Level-2A"
 ```
 
-![unsplash.com](./photo-1489824904134-891earthkdk.png)
+![unsplash.com](./photo-1489824904134-891earthkdfka.png)
 
 The second variable to set is a variable to define that we want to use Sentinel imagery or Sentinel-2 imagery. Then you have to filter it from appropriate date (May 10th to May 30th of 2020). Why summer according to you ? Sort them by cloud cover to the most cloud free image.
 
@@ -164,14 +164,15 @@ Map.addLayer(nbr, { min: -1, max: 1, palette: burnPalette }, "NBR");
 The next step that you're going to do is to create the Normalized Burn Ration (NBR). Since the MBR uses band eight and 12, define the characteristics(band 8 and 12) in order to use to use a normalized difference. You can set color scheme as you want before hitting Run.
 
 When you run the NBR over the Mr Kenya, you see the burn scare (true color). Unselecte the NBR layer to see the image
-![unsplash.com](./photo-1489824904134-891earthEn2.PNG)
-![unsplash.com](./photo-1489824904134-891earthdf.PNG)
+![unsplash.com](./photo-1489824904134-891earthdfdfff.png)
 
 # Running Classifications
 
 How to select imagery for creating Mt Kenya forests map based on the characteristics of the imagery such as pixel size, bands, or time of year? I needed some quick research about field work to know the different types of vegetation before running classification.
 
 I went over supervised image classification within ENVI, a very powerful remote sensing data processing software to create classified map product. ENVI was originally dedicated to hyperspectral analysis and therefore to large volumes of data and complex information. But it's currently adapted to different types of data: VHSR, radar, thermal.
+
+![StyledBlog](./photo-1489824904134-891earthdfdfadi.png)
 
 Once again, my goal here was not to study the science of Wildfire or the ecology of Mt Kenya. My mission here was to locate the fire and I beleve that the futur of Mt Kenya is in all our hands, together let's celebrate Mt Kenya.
 

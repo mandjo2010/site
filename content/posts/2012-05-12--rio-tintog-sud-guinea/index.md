@@ -10,59 +10,42 @@ Have you heard about the `process` of assisting the recovery of an ecosystem tha
 The `International Year of Biodiversity` was held in `2010` to raise awareness of the importance of biodiversity worldwide. At the same year, I am studying in Paris to get a Master degree in Integrated Land Management and planning. By inviting student to choose their own thesis subject for a biodiversity preservation project, Nathalie Machon, Professor of Ecology at the Paris Museum of Natural History, learned a lot about her students' interests and passions.
 
 ```javascript
-a=3
-puts a
+How to reconcile mining and Biodiversity preservation ?
 ```
-
-### How to reconcile mining and Biodiversity preservation ?
 
 I choose this question as my thesis subject for one reason: Guinea.
 
-Born and raised in Guinea, I knew that the mining industry is estimated directly and indirectly to contribute to 36% of the country GDP, and is therefore considered to be an essential part of living and economic development. However, mining activities destroyed ecosystems, produce ‘mine wastes’: unwanted solid and liquid materials which are currently uneconomic and contain contaminants in concentrations that pose serious hazards to ecosystem and human health, elements (iron) involved in biogeochemical cycles and components (metals) that are potentially economic and could be recovered.
+Born and raised in Guinea, I knew that the mining industry is estimated directly and indirectly to contribute to 36% of the country GDP, and is therefore considered to be an essential part of living and economic development.
+
+However, mining activities destroyed ecosystems, produce ‘mine wastes’: unwanted solid and liquid materials which are currently uneconomic and contain contaminants in concentrations that pose serious hazards to ecosystem and human health, elements (iron) involved in biogeochemical cycles and components (metals) that are potentially economic and could be recovered.
 
 I also knew that understanding and predicting the impacts of mining and mine wastes requires
 knowledge of the links between their distribution and climate, geological hazards, ecosystem productivity, land-use and urbanisation in Guinea.
 
 Such knowledge will enable mining companies, governments and non-governmental organisations to manage, remediate and exploit mine wastes and sustain the globally vital mining industry.
 
-To be successful in solving this question, I spent some days and months researching bibliographical notes about mining in Guinea and others places for the first. After the
+To be successful in solving this question, I spent some days and months researching bibliographical notes about mining in Guinea and others places for the first. The compilation of documents, study and mission reports, and other information including Internet research, as well as information obtained from one-on-one consultations have
+allowed for a greater understanding of the Pic de Fon area and of the subject of the study.
 
-ici il faut brievement dire comment tu as commencé avec Rio et qu'est ce que tu as fait par la suite. et mentionnée qu'est ce que fait rio en terme de reboisement
+Given the limited availability of documents pertaining to this topic, this literature review consists only of a collection of general information on mining cases in Guinea, and later about ecological restoration.
 
-o spend two 43-minute periods in the library researching reformers before writing a pitch for their favorite ones.
+Later, I reached out to the Rio Tinto environmental executive department, sending some emails and I was welcome (despite some administrative difficulties) to start an internship project with the environmental team in Guinea.
+The project was finally carried out as part of a contract agreement between the University Montpellier2, the laboratory of Centre d’Ecologie Fonctionnelle et Evolutive de Montpellier and the company Rio Tinto Simandou.
 
-### Contactint RIO
+To be a sccessful candidate in this project, I was responsible for developing research using ecological restauration approch in other to help restore back ecosystems. Dr. James Aronson, from le Centre d’Ecologie Fonctionnelle et Evolutive (CNRS) kindly accepted me in his lab. We drawn one plan : with the aim to identify the potential for ecological restoration and rehabilitation, which will serve as a bridge to reconcile the inevitable and potential conflicts between mining and biodiversity, we start asking ouselve the following questions:
 
-The successful candidate will be responsible for developing research using remote sensing applications and other data to determine the global impacts of historic and contemporary mining.
+> How can we best preserve biodiversity and good sustainable functioning of natural ecosystems of the Pic de Fon classified forest in the presence of strong mining exploitation activities?
 
-Please find attached herewith my internship report which is organized in four parts:
- Context and objectives of the study
- Approach and methodology used
- Results
- Discussion, Recommendations and Continuation of the Study
-With the aim to answer to one of my two working hypotheses, about the
-classification of local plant species in ecological functional groups, it seems
-necessary to continue the study to help determine the stages of ecological
-succession in which they occur. This should help in deciding how to use these plants
-in ecological restoration and rehabilitation efforts in the degraded zones of the forêt
-classée du Pic de Fon.
-During this internship, I have learned that Rio Tinto adopts high environmental
-standards, finances impact assessment, and conducts research and deveropment
-on ecological restoration and rehabilitation. To strengthen the ecological restoration
-and rehabilitation work currently underway in the Pic the Fon Forest and ecological
-issues of the region (especialy fire), this study led to a number of specific
-recommendations that could be implemented for the protection and sustainable
-management of this forest as well as for ecological restoration and rehabilitation.
-In closing, I would like to give warm thanks to everyone for all their help.
+> How can we promote the well-being of local people and other stakeholders in the Pic de Fon forest through joint management of at least some economic and environmental enhancement activities at the landscape level?
 
-> Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
+So we described firstly the context and objectives of the study. Then we focus on the approach and methodology used in the study. Finally, the results obtained through different aspects of the work was presented and then discussed.
+The forêt classée du Pic de Fon was incorporated into the state forest sector as a classified according to decree N° 8113 in November, 4, 1953 of the Governor General of West Africa (French colonial administration).
 
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum.
+![unsplash.com](./photo-1490474418585-ba9bad8fd0eadfs.png)
 
-### Cras semper consectetur elementum
+Rio Tinto is a world-class iron ore mining project located in South Eastern Guinea. Rio adopts high environmental standards, finances impact assessment, and research on rehabilitation and ecological restoration. Significant studies have been completed on biodiversity in the region by Conservation International, The Royal Botanic Gardens Kew (UK), and other competent institutions.
 
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+The field work in Guinea aims to characterize different vegetation types and the various species that have been selected for ecological restoration. This section describes the organization of the landscape of the Forêt Classée du Pic de Fon. The Pic de Fon vegetation types have been identified from the vegetation map completed before and a fieldwork project that was conducted in the course of our study, starting from Canga-East to the top of Simandou range.
 
-![unsplash.com](./photo-1490474418585-ba9bad8fd0ea.jpg)
-
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+![unsplash.com](./photo-1490474418585-ba9bad8fddjdjdj.jpg)
+It was a wonderful experience to work with many people from different enviromment and cultural background. But I am sure of one thing, I could not be able to reach my goal without the support of many people around me. Many thanks to all of you.

@@ -12,7 +12,7 @@ Gabriel and I conducted this project to ensure that Agroforestry serves the thre
 This kind of practice would be valuable anywhere, but it’s especially useful in Africa, where the prevalence of undernourishment in the population remains stubbornly high.
 
 According to the World Food Program (WFP), the map below, most African countries have higher prevalence of undernourishment in the population. For WFP, if current trends continue, the number of hungry people will reach 840 million by 2030 in the world.
-![test](./33893097-e5a70c34-df5a-11e7-8f5e-40e05762dd6770.PNG)
+![test](./33893097-e5a70c34-df5a-11e7-8f5e-40e05762dd67700b.png)
 
 Source: <a href="https://www.wfp.org/publications/hunger-map-2020/" target="_blank">WFP 2020 - Hunger Map</a>
 
