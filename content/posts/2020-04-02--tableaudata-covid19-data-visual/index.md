@@ -20,8 +20,6 @@ Once the trial version of Tableau is downloaded, click continue to proceed the i
 
 Now that Tableau is up and running, create the data source by importing data into Google sheets for example. But making sure that the data is relevant and authoritative is vital to ensure that the dashboard is credible. For this example, data has been generously provided by Europe. I fetched it from <a href="https://data.europa.eu/euodp/en/data/dataset/covid-19-coronavirus-data" target="_blank">EU Open Data Portal.</a>
 
-<!-- ![unsplash.com](./photo-1463852247062-1bbca38f780.png) -->
-
 As soon as the data is ready, connect it to Tableau workbook Desktop.
 
 ### 3- Connecting Data to Tableau
@@ -32,8 +30,6 @@ Tableau desktop needs authorization to Google account in order to proceed connec
 
 To explore data, there two different views that can be use. One from the normal table view, or by switching to just view headings(metadata). It's also possible to order the colum, filter a specific area or item.
 
-<!-- ![unsplash.com](./photo-146385228887062-1bbca38f7805-.png) -->
-
 ### 4- Preparing the data for analysis
 
 When you connect to a new data source, Tableau assigns each field in the data source as a dimension or measure in the Data pane, depending on the type of data the field contains. You use these fields to create views of your data.
@@ -41,8 +37,6 @@ When you connect to a new data source, Tableau assigns each field in the data so
 To check the number of records, click on it, drag and drop it into Tableau. By this way, a small bar chart appears with giving number when hovering over it.
 
 Before moving forward building chart, it's better to audit data to make sure that it's making sense. Is your data reliable ? In this case, I the moment of building this dashboard, cases number and deahts were corect.
-
-<!-- ![unsplash.com](./photo-1463852247062-1bbca38f7.png) -->
 
 ### 5- Creating chart or map within Tableau
 
@@ -58,8 +52,6 @@ Now the map, appear with much more larger dots in countries with the large amoun
 ![unsplash.com](./photo-1463852247062-1bbdkfjslkadfjaid.png)
 
 Maps in Tableau can be thought of as scatter plots with a background image. Tableau will plot a point at each combination of the latitude on the Y-axis and longitude on the X-axis. To help illustrate the scatter plot concept, take a look at the following two images. First, the latitude and longitude plotted with no background image. And below, the same data points plotted with a background image of the world in dark color.
-
-<!-- ![unsplash.com](./photo-146385228887062-1bbca38f7dfzf.png) -->
 
 To only show the top 10 countries, create a new chart on tableau. A chart is basically a calculation logic on a specific part of the data. It's possible to edit it, add more information and change the color.
 
