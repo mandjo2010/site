@@ -34,9 +34,9 @@ The project was finally carried out as part of a contract agreement between the 
 
 To be a sccessful candidate in this project, I was responsible for developing research using ecological restauration approch in other to help restore back ecosystems. Dr. James Aronson, from le Centre d’Ecologie Fonctionnelle et Evolutive (CNRS) kindly accepted me in his lab. We drawn one plan : with the aim to identify the potential for ecological restoration and rehabilitation, which will serve as a bridge to reconcile the inevitable and potential conflicts between mining and biodiversity, we start asking ouselve the following questions:
 
-> How can we best preserve biodiversity and good sustainable functioning of natural ecosystems of the Pic de Fon classified forest in the presence of strong mining exploitation activities?
+_How can we best preserve biodiversity and good sustainable functioning of natural ecosystems of the Pic de Fon classified forest in the presence of strong mining exploitation activities?_
 
-> How can we promote the well-being of local people and other stakeholders in the Pic de Fon forest through joint management of at least some economic and environmental enhancement activities at the landscape level?
+_How can we promote the well-being of local people and other stakeholders in the Pic de Fon forest through joint management of at least some economic and environmental enhancement activities at the landscape level?_
 
 So we described firstly the context and objectives of the study. Then we focus on the approach and methodology used in the study. Finally, the results obtained through different aspects of the work was presented and then discussed.
 The forêt classée du Pic de Fon was incorporated into the state forest sector as a classified according to decree N° 8113 in November, 4, 1953 of the Governor General of West Africa (French colonial administration).
