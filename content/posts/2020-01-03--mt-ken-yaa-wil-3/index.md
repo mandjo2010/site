@@ -1,23 +1,23 @@
 ---
-title: Remote Sensing of Mt Kenya Wildfire
+title: Remote Sensing of Mt. Kenya Wildfire
 subTitle: How satellite imagery and the science of remote sensing detect wildfires, help manage their spread, and guide ecological restoration
 category: "Satellite"
 cover: photo-1489824904134-891ab64532f1-cover.png
 ---
 
-How to mesure the impacts of wildfire and how to apply satellite remote sensing technology to wildfire detection, monitoring, and assessment ? The goal of this post is not to explain de science behind wildfires, but rather to cover 4 major satellite sensors which are useful for wildfire detection and analysis (Landsat 8, Sentinel 2, MODIS and VIIRS).
+How do we measure the impact of wildfires and apply satellite remote sensing technology to wildfire detection, monitoring, and assessment? The goal of this post is not to explain the science behind wildfires, but rather to cover four major satellite sensors which are useful for wildfire detection and analysis (Landsat 8, Sentinel 2, MODIS and VIIRS).
 
-In this example, I will locate and use wildfire data for Mt Kenya as well as any part of the Globe, analyze it and process some geospatial data to detect fire hotspots and map burn area. In 2019, thousands of hectares of moorland in Mt Kenya Forest have been destroyed by a fire.
+In this example, I will locate and use wildfire data for Mt. Kenya, analyze it and process some geospatial data to detect fire hotspots and the map burn area. In 2019, thousands of hectares of moorland in the Mt. Kenya Forest have been destroyed by fire.
 
-This video from NASA shows how NASA and NOAA satellites provide a global view of active fires across the entire plant providing information to the fire management team on the ground. For more information on the techniques highlighted in this video, visit <a href="https://www.nasa.gov/feature/goddard/2019/nasa-tracks-wildfires-from-above-to-aid-firefighters-below" target="_blank"> NASA Tracks Wildfires </a> From Above to Aid Firefighters.
+This video from NASA shows how NASA and NOAA satellites provide a global view of active fires across the entire plant, providing information to the fire management team on the ground. For more information on the techniques highlighted in this video, visit <a href="https://www.nasa.gov/feature/goddard/2019/nasa-tracks-wildfires-from-above-to-aid-firefighters-below" target="_blank"> NASA Tracks Wildfires From Above to Aid Firefighters </a> .
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/I-kvnFP8ptI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-We build this simple <a href="https://github.com/mandjo2010/Suivi-feux-de-forets-api-nasa" target="_blank"> React app</a> to track wildfires and plot them on Google map using a Google Maps API key and a <a href=" https://api.nasa.gov" target="_blank">NASA API</a> key. For a quick and advanced view of active fire data within 3 hours of satellite observation, visit NASA's <a href="https://firms.modaps.eosdis.nasa.gov/map/#t:adv;d:2020-09-22..2020-09-23;@0.0,0.0,3z" target="_blank"> Fire Information for Resource Management System </a> (FIRMS).
+We build this simple <a href="https://github.com/mandjo2010/Suivi-feux-de-forets-api-nasa" target="_blank"> React application</a> to track wildfires and plot them on Google map using a Google Maps API key and a <a href=" https://api.nasa.gov" target="_blank">NASA API</a> key. For a quick and advanced view of active fire data within 3 hours of satellite observation, visit NASA's <a href="https://firms.modaps.eosdis.nasa.gov/map/#t:adv;d:2020-09-22..2020-09-23;@0.0,0.0,3z" target="_blank"> Fire Information for Resource Management System </a> (FIRMS).
 
-# 4 major satellite sensors for wildfire
+# Four major satellite sensors for wildfire
 
-Here are the basic specifications of the major satellite sensors which are useful for wildfire detection and analysis
+Here are the basic specifications of the major satellite sensors that are useful for wildfire detection and analysis:
 
 ## 1- Landsat 8
 
@@ -65,7 +65,7 @@ The Copernicus Sentinel-2 mission comprises a constellation of two polar-orbitin
 
 ## 3- MODIS
 
-The Moderate Resolution Imaging Spectroradiometer (MODIS), is a payload imaging sensor built by Santa Barbara Remote Sensing that was launched into Earth orbit by NASA in 1999 onboard the Terra satellite, and in 2002 onboard the Aqua satellite
+The Moderate Resolution Imaging Spectroradiometer (MODIS) is a payload imaging sensor built by Santa Barbara Remote Sensing. It was launched into Earth orbit by NASA in 1999 onboard the Terra satellite, and in 2002 onboard the Aqua satellite.
 ![unsplash.com](./photo-1489824904134-891MODIS.PNG)
 
 ```javascript
@@ -82,11 +82,11 @@ The Moderate Resolution Imaging Spectroradiometer (MODIS), is a payload imaging 
 | Temporal Resolution     | 1-2 days
 ```
 
-`Applications:` Vegetation Health Monitoring - Landuse Changes - Global Snow Cover Trends - Water Level Monitoring - Wildfire Detection
+`Applications:` Vegetation Health Monitoring - Land Use Changes - Global Snow Cover Trends - Water Level Monitoring - Wildfire Detection
 
 ## 4- VIIRS
 
-The Visible Infrared Imaging Radiometer Suite (VIIRS) is a sensor designed and manufactured by the Raytheon Company onboard the Suomi National Polar-orbiting Partnership (Suomi NPP) and NOAA-20 weather satellites.
+The Visible Infrared Imaging Radiometer Suite (VIIRS) is a sensor designed and manufactured by the Raytheon Company, onboard the Suomi National Polar-orbiting Partnership (Suomi NPP) and NOAA-20 weather satellites.
 ![unsplash.com](./photo-1489824904134-891VIIRS.PNG)
 
 ```javascript
@@ -104,11 +104,11 @@ The Visible Infrared Imaging Radiometer Suite (VIIRS) is a sensor designed and m
 | Temporal Resolution     | 16 days
 ```
 
-`Applications:` Changes in Surface Vegetation - Wildfire Detection - Changes in Hydrological Cycle - Water Level MonitoringMonitor Earth’s Energy Usage - Climate Change Assessment
+`Applications:` Changes in Surface Vegetation - Wildfire Detection - Changes in Hydrological Cycle - Water Level Monitoring - Monitor Earth’s Energy Usage - Climate Change Assessment
 
 # Download Data
 
-There are many platforms available for downloading Satellite based Remote Sensing data. Here are various data portals and web resources that offer near real-time updates on wildfire events and provide image and GIS data to support decision making for fire management and fire research:
+Many platforms are available to download satellite-based remote sensing data. Here are various data portals and web resources that offer near-real-time updates on wildfire events, and provide image and GIS data to support decision making for fire management and research:
 
 - <a href="http://earthexplorer.usgs.gov/" target="_blank">Landsat 8</a>
 - <a href="https://scihub.copernicus.eu/" target="_blank">Sentinel-1, Sentinel-2, Sentinel-3 and Sentinel-5P</a>
@@ -117,16 +117,13 @@ There are many platforms available for downloading Satellite based Remote Sensin
 - <a href="https://ssl.jspacesystems.or.jp/ersdac/GDEM/E/index.html" target="_blank"> Japan Space Systems </a>
 - <a href="http://www.vito-eodata.be/PDF/portal/Application.html" target="_blank">1 Km Spot vegetation Data (over Africa for example) </a>
 
-Within earthexplorer for example, the left-hand side panel has all the search tools for data selection. Use the polygon tool to drag the map to the area of interest, and then draw the area.
+Within earth explorer for example, the left-hand side panel has all the search tools for data selection. Use the polygon tool to drag the map to the area of interest, then draw the area.
 
-The combination of different bands present in satellite data that you want for visualization should always depend on the type of the application you are using them for. In this case, the application is vegetation. QGIS, a free and open source GIS tool can be use or other for raster operations and data visualization using different band combinations.
+The combination of different bands present in satellite data for visualization should always depend on the type of the application you are using. In this case, the application is vegetation. QGIS, a free and open-source GIS tool can be used or other for raster data operations and data visualization using different band combinations.
 
-# Detecting Mt Kenya wildfire from space
+# Detecting Mt. Kenya wildfires from space
 
-Do you recall from the react app at the top of this page that use NASA API to track wildfires and plot them on Google? you are fine here, because you are going to use Google Earth Engine to assess wildfires. You can drag and move the point by holding it to wherever you want onto the earth(where are fire).
-
-So once you've opened up Engine, the first thing that you're going to set are two variables. The first variable
-is the location of the burning area of your choice. I am interested in the Mt Kenya Wildfire.
+After opening Engine, it’s important to set two variables. The first is the location of the burning area, such as the Mt. Kenya Wildfire.
 
 ```javascript
 // imports (2 entries)
@@ -136,7 +133,9 @@ var Sentinel: ImageCollection "Sentinel-2 MSI: MultiSpectral Instrument, Level-2
 
 ![unsplash.com](./photo-1489824904134-891earthkdfka.png)
 
-The second variable to set is a variable to define that we want to use Sentinel imagery or Sentinel-2 imagery. Then you have to filter it from appropriate date (May 10th to May 30th of 2020). Why summer according to you ? Sort them by cloud cover to the most cloud free image.
+The second is to define whether to use Sentinel imagery or Sentinel-2 imagery. Then filter it with an appropriate date span (such as May 10th to May 30th of 2020). Sort them by cloud cover to the most cloud-free image.
+
+Define the characteristics (band 4, 3, and 2) for a true color composite image, setting different paramaters to make the image visible.
 
 ```javascript
 // Define the image and peramaters
@@ -161,16 +160,18 @@ var burnPalette = ["black", "white"];
 Map.addLayer(nbr, { min: -1, max: 1, palette: burnPalette }, "NBR");
 ```
 
-The next step that you're going to do is to create the Normalized Burn Ration (NBR). Since the MBR uses band eight and 12, define the characteristics(band 8 and 12) in order to use to use a normalized difference. You can set color scheme as you want before hitting Run.
+The next step is to create the Normalized Burn Ratio (NBR). Since the NBR uses bands eight and 12, define these characteristics in order to use to use a normalized difference. Set the desired color scheme before hitting Run.
 
-When you run the NBR over the Mr Kenya, you see the burn scare (true color). Unselecte the NBR layer to see the image
+When running the NBR over Mt. Kenya, the burn scar (true color) becomes visible. Unselect the NBR layer to see the image.
 ![unsplash.com](./photo-1489824904134-891earthdfdfff.png)
 
 # Running Classifications
 
-How to select imagery for creating Mt Kenya forests map based on the characteristics of the imagery such as pixel size, bands, or time of year? I needed some quick research about field work to know the different types of vegetation before running classification.
+I needed some quick research about field work to know the different types of vegetation before running a classification.
 
-I went over supervised image classification within ENVI, a very powerful remote sensing data processing software to create classified map product. ENVI was originally dedicated to hyperspectral analysis and therefore to large volumes of data and complex information. But it's currently adapted to different types of data: VHSR, radar, thermal.
+To create a classified map, I reviewed a supervised image classification within ENVI, which is very powerful remote sensing data processing software. ENVI was originally dedicated to hyperspectral analysis using large volumes of data and complex information; but it’s also been adapted to different types of data: VHSR, radar, thermal.
+
+My goal was not to study the science of wildfires or the ecology of Mt. Kenya, it was to locate the fire. I believe the future of Mt Kenya is in all our hands.
 
 ![StyledBlog](./photo-1489824904134-891earthdfdfadi.png)
 
