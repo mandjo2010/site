@@ -171,10 +171,8 @@ I needed some quick research about field work to know the different types of veg
 
 To create a classified map, I reviewed a supervised image classification within ENVI, which is very powerful remote sensing data processing software. ENVI was originally dedicated to hyperspectral analysis using large volumes of data and complex information; but it’s also been adapted to different types of data: VHSR, radar, thermal.
 
-My goal was not to study the science of wildfires or the ecology of Mt. Kenya, it was to locate the fire. I believe the future of Mt Kenya is in all our hands.
-
 ![StyledBlog](./photo-1489824904134-891earthdfdfadi.png)
 
-Once again, my goal here was not to study the science of Wildfire or the ecology of Mt Kenya. My mission here was to locate the fire and I beleve that the futur of Mt Kenya is in all our hands, together let's celebrate Mt Kenya.
+My goal was not to study the science of wildfires or the ecology of Mt. Kenya, it was to locate the fire. I believe the future of Mt Kenya is in all our hands.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zRdwYMi3AEQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
