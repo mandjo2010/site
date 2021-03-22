@@ -11,8 +11,6 @@ My collaborator Gabriel KOIVOGUI and I conducted a project that confirms this, d
 
 This kind of practice would be valuable anywhere, but is especially useful in Africa, where undernourishment of the population remains stubbornly high.
 
-According to the World Food Program (WFP) , most African countries have a higher prevalence of undernourishment in the population. If current trends continue, the number of hungry people will reach 840 million by 2030.
-
 According to the <a href="https://www.wfp.org/publications/hunger-map-2020/" target="_blank">World Food Program (WFP)</a>, the map below, most African countries have higher prevalence of undernourishment in the population. For WFP, if current trends continue, the number of hungry people will reach 840 million by 2030 in the world.
 
 ![test](./33893097-e5a70c34-df5a-11e7-8f5e-40e05762dd67700b.png)
