@@ -5,13 +5,9 @@ category: "Spatial Data"
 cover: photo-1456518563096-0ff5ee08204e-cover.png
 ---
 
-When computer science and geography come together, the power to collect, store, manage, query, visualize spatial data, and output maps is unleashed. This informs our choices about where we live and how things happen. The advanced MSc SILAT will give you these tools. Below are my top 10 reasons to choose this university program.
+When computer science and geography come together, the power to collect, store, manage, query, visualize spatial data, and output maps is unleashed. This informs our choices about where we live and how things happen. The advanced MSc SILAT will give you these tools. Below are my top 10 reasons to choose this university program.![unsplash.com](./photo-1456518563096-0ff5ee08204ead.png). SILAT stands for “Systèmes d’informations localisées pour l’aménagement des territoires” [Localized Information Systems for Land Management] and it’s part of AgroParisTech University’s executive program. The MSc is based at “Maison de la Télédétection” [House of Remote Sensing], in the south of France. Lecturers primarily are from academic and research institutions (AgroParisTech, CIRAD, IRD and Irstea).
 
-![unsplash.com](./photo-1456518563096-0ff5ee08204e-cover.png)
-
-SILAT stands for “Systèmes d’informations localisées pour l’aménagement des territoires” [Localized Information Systems for Land Management] and it’s part of AgroParisTech University’s executive program. The MSc is based at “Maison de la Télédétection” [House of Remote Sensing], in the south of France. Lecturers primarily are from academic and research institutions (AgroParisTech, CIRAD, IRD and Irstea).
-
-Choosing between programs within the AgroParisTech University executive MSc program is challenging, each executive program seems cool. In my case, spatial data science was a good fit for my background in Environmental Science. Here are some reasons for my choice of the SILAT MSc:
+Choosing between programs within the AgroParisTech University executive MSc program is challenging, each of them seems cool. In my case, spatial data science was a good fit for my background in Environmental Science. Here are some reasons for my choice of the SILAT MSc:
 
 ### 1 - Location: Place matters
 

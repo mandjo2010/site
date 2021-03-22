@@ -1,13 +1,14 @@
 ---
-title: Finding Geographic Data 
-subTitle: Finding GIS Data on the web from wade range of sources
+title: Finding Geographic Data
+subTitle: Finding GIS Data on the web from wide range of sources
 category: "Spatial Data"
 cover: photo-1489824904134-891ab64532f1-cover.png
 ---
 
-Welcome to Spatial Data World: to be credible, it has to be relevant and authoritative. 
+Welcome to Spatial Data World: to be credible, data has to be relevant and authoritative.
 
-This page identify sources of geospatial data and resources with a primary focus on authoritative sources. 
+This page identifies authoritative sources of geospatial data and resources.
+
 ### Geospatial Data Sources
 
 - <a href="https://inspire-geoportal.ec.europa.eu/" target="_blank">Inspire Geoportal (European Union)</a>
@@ -42,7 +43,7 @@ This page identify sources of geospatial data and resources with a primary focus
 - <a href="http://vterrain.org/Elevation/global.html" target="_blank">Global Elevation Models</a>
 - <a href="https://www.usgs.gov/core-science-systems/ngp/3dep/about-3dep-products-services?qt-science_support_page_related_con=0#qt-science_support_page_related_con" target="_blank">USGS Elevation Products</a>
 - <a href="https://umn.maps.arcgis.com/home/item.html?id=85e35d64d67f425c94ebca45dad6568a" target="_blank">Historical National Boundaries (University of Minnesota)</a>
-- <a href="https://developer.here.com/sample-data" target="_blank">Here maps student data </a>
+- <a href="https://developer.here.com/sample-data" target="_blank">HERE Sample Map Data </a>
 - <a href="https://opentopography.org/" target="_blank">Open Topography</a>
 - <a href="http://map.openseamap.org/" target="_blank">Open Sea Map</a>
 - <a href="https://landscan.ornl.gov/" target="_blank">Oak Ridge National Laboratory (ORNL), LandScan Documentation</a>
