@@ -131,8 +131,6 @@ var point: Point(37.31, -0.15)
 var Sentinel: ImageCollection "Sentinel-2 MSI: MultiSpectral Instrument, Level-2A"
 ```
 
-![unsplash.com](./photo-1489824904134-891earthkdfka.png)
-
 The second is to define whether to use Sentinel imagery or Sentinel-2 imagery. Then filter it with an appropriate date span (such as May 10th to May 30th of 2020). Sort them by cloud cover to the most cloud-free image.
 
 Define the characteristics (band 4, 3, and 2) for a true color composite image, setting different paramaters to make the image visible.
@@ -171,7 +169,7 @@ I needed some quick research about field work to know the different types of veg
 
 To create a classified map, I reviewed a supervised image classification within ENVI, which is very powerful remote sensing data processing software. ENVI was originally dedicated to hyperspectral analysis using large volumes of data and complex information; but it’s also been adapted to different types of data: VHSR, radar, thermal.
 
-![StyledBlog](./photo-1489824904134-891earthdfdfadi.png)
+![StyledBlog](./photo-1489824904134-891earthdfdfdfnagi.png)
 
 My goal was not to study the science of wildfires or the ecology of Mt. Kenya, it was to locate the fire. I believe the future of Mt Kenya is in all our hands.
 

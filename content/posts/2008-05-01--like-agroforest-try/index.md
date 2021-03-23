@@ -13,7 +13,7 @@ This kind of practice would be valuable anywhere, but is especially useful in Af
 
 According to the <a href="https://www.wfp.org/publications/hunger-map-2020/" target="_blank">World Food Program (WFP)</a>, the map below, most African countries have higher prevalence of undernourishment in the population. For WFP, if current trends continue, the number of hungry people will reach 840 million by 2030 in the world.
 
-![test](./33893097-e5a70c34-df5a-11e7-8f5e-40e05762dd67700b.png)
+![test](./33893097-e5a70c34-df5a-11e7-8f5e-40e05762dd6770dju.png)
 
 Growing up in Guinea, my colleague and I were well aware of the challenge of undernourishment. We studied environmental science in college and were excited of to work on this research project, even moreso when we visited rural communities with the team of Dr. Famoï BÉAVOGUI, a director of the Guinea Agricultural Research Institute. Walking through the farmlands, interviewing farmers, sleeping under their roofs, and listening to them, we realize the importance of agroforestry in providing a wide range of economic, sociocultural, and environmental benefits.
 
