@@ -35,10 +35,8 @@ We began by asking ourselves the following questions:
 
 2 - How can we promote the well-being of local people and other stakeholders in the Pic de Fon forest through joint management of at least some economic and environmental enhancement activities?
 
-First we described the context and objectives of the study. Then we focused on approach and methodology. Finally, the results obtained through different aspects of the work was presented and discussed.
+First we described the context and objectives of the study. Then we focused on approach and methodology. The field work in Guinea characterizes different types of vegetation and various species selected for ecological restoration. It describes the organization of the landscape of the Forêt Classée du Pic de Fon, including a vegetation map covering the region from Canga-East to the top of Simandou range. Finally, the results obtained through different aspects of the work was presented and discussed.
 
 ![unsplash.com](./photo-1490474418585-ba9bad8fd0eaddf.png)
 
-Rio Tinto is a world-class iron ore mining project located in Southeastern Guinea. Rio adopts high environmental standards, finances impact assessment, and researches rehabilitation and ecological restoration. Significant studies have been completed on biodiversity in the region by Conservation International, The Royal Botanic Gardens Kew (UK), and other respected institutions.
-
-The field work in Guinea characterizes different types of vegetation and various species selected for ecological restoration. It describes the organization of the landscape of the Forêt Classée du Pic de Fon, including a vegetation map covering the region from Canga-East to the top of Simandou range.
+Rio Tinto `Simandou` is a world-class iron ore mining project located in Southeastern Guinea. Rio adopts high environmental standards, finances impact assessment, and researches rehabilitation and ecological restoration. Significant studies have been completed on biodiversity in the region by Conservation International, The Royal Botanic Gardens Kew (UK), and other respected institutions.
