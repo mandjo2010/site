@@ -31,12 +31,6 @@ While agroforestry farmland owners, mostly women, use basic and traditional tech
 
 While the popularity of forest products (shea butter, cocoa, or wine) is just one measure of success, agroforestry has already had a positive impact on scientific community. We hope to help more women who are their struggling with a lack of agricultural and economical services.
 
-We knew that while women may lack financial supports, technology to quickly transformed trees products, many of them did have a lot of traditional knowledge that was readily apply in their daily activities. Working with my friend, we decided secondly to evaluate the “place” of trees products in the household economy of every selected agroforest farmland. This economic analysis conducted on every agroforest farmland show that the highest gross potential income generated from one village’s trees products activity was US$ 2 913,95 in 2008. Developing a strong rural policy can help bridge the gap in care for rural women activities.
+We knew that while women may lack financial supports, technology to quickly transformed trees products, many of them did have a lot of traditional knowledge that was readily apply in their daily activities. Working with my friend, we decided secondly to evaluate the “place” of trees products in the household economy of every selected agroforest farmland.
 
-Researcher who were supporting us added other information including soil amelioration by trees in agroforest farming and the growth of nitrogen-fixing trees, including an important role play in the conservation of biodiversity within deforested, fragmented landscapes by providing habitats and resources for plant and animal species, maintaining landscape connectivity.
-
-Agroforestry farmland crop also help secure and reduced soil erosion and the impact of raindrops, improve soil structure.
-
-While agroforestry farmland owner, mostly women use basic and traditional technics, the demand of agroforest products (shea butter for example) on market continue to grow more popular whether on amazon or in local market. Strengthening women’s work by supplying them with new equipment will add more value to their activity and allowed them to gain more experience that will be engaging for rural communities.
-
-While the popularity of forest products (shea butter, cocoa, or wine) is just one measure of success, agroforestry has already had a positive impact on scientific community. We hope to help more women who are their struggling with a lack of agricultural and economical services.
+This economic analysis conducted on every agroforest farmland show that the highest gross potential income generated from one village’s trees products activity was US$ 2 913,95 in 2008. Developing a strong rural policy can help bridge the gap in care for rural women activities.

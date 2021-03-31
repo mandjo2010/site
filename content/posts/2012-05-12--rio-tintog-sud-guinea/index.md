@@ -39,4 +39,4 @@ First we described the context and objectives of the study. Then we focused on a
 
 ![unsplash.com](./photo-1490474418585-ba9bad8fd0eaddf.png)
 
-Rio Tinto `Simandou` is a world-class iron ore mining project located in Southeastern Guinea. Rio adopts high environmental standards, finances impact assessment, and researches rehabilitation and ecological restoration. Significant studies have been completed on biodiversity in the region by Conservation International, The Royal Botanic Gardens Kew (UK), and other respected institutions.
+**Rio Tinto** `Simandou` is a world-class iron ore mining project located in Southeastern Guinea. Rio adopts high environmental standards, finances impact assessment, and researches rehabilitation and ecological restoration. Significant studies have been completed on biodiversity in the region by Conservation International, The Royal Botanic Gardens Kew (UK), and other respected institutions.
