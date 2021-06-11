@@ -45,6 +45,6 @@ Most lecturers (teacher-researchers) are affiliated with different laboratories,
 
 Having lived in Paris, and heard about housing costs in Geneva or New York, Montpelier is ideal. Ninety-five per cent of students live on campus, which is different than most schools. There are a few cultural sensitivities to be mindful of, such as using “s’il vous plaît” at the end of all requests. (“Voulez-vous coucher avec moi?” seems to be a joke that people make about France, but they don’t think it’s funny.)
 
-### 10 The beauty of the south
+### 10 - The beauty of the south
 
 When you go south you never go back north. Like many coastal locations, the south of France – with its beaches, breezes, high temperatures and mountains – is a beautiful and magical to live. However, the unemployment rate is high, which can present a challenge.
