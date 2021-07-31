@@ -7,11 +7,10 @@ import config from "../../../content/meta/config";
 import GithubIcon from "!svg-react-loader!../../images/svg-icons/github.svg?name=GithubIcon";
 import FacebookIcon from "!svg-react-loader!../../images/svg-icons/facebook.svg?name=FacebookIcon";
 import TwitterIcon from "!svg-react-loader!../../images/svg-icons/twitter.svg?name=TwitterIcon";
-
 import LinkedinIcon from "!svg-react-loader!../../images/svg-icons/linkedin.svg?name=LinkedinIcon";
 import EmailIcon from "!svg-react-loader!../../images/svg-icons/email.svg?name=EmailIcon";
-import MediumIcon from "!svg-react-loader!../../images/svg-icons/medium.svg?name=MediumIcon";
-import QuoraIcon from "!svg-react-loader!../../images/svg-icons/quora.svg?name=QuoraIcon";
+// import MediumIcon from "!svg-react-loader!../../images/svg-icons/medium.svg?name=MediumIcon";
+// import QuoraIcon from "!svg-react-loader!../../images/svg-icons/quora.svg?name=QuoraIcon";
 
 
 
@@ -36,14 +35,14 @@ const styles = theme => ({
   //       fill: theme.info.colors.socialIconsHover
   //     }
   //   }
-
   // }
+
   link: {
     display: "block",
     padding: "5px",
     "&[title='github']": {
       "& svg": {
-        fill: "#181717"
+        fill: "#966588"
 
       }
     },
@@ -60,7 +59,7 @@ const styles = theme => ({
     },
     "&[title='linkedin']": {
       "& svg": {
-        fill: "#007fb1"
+        fill: "#a19b9a"
       }
     },
     "&[title='email']": {
@@ -91,9 +90,9 @@ const Socialcons = props => {
     facebook: FacebookIcon,
     github: GithubIcon,
     email: EmailIcon,
-    medium: MediumIcon,
+    // medium: MediumIcon,
     linkedin: LinkedinIcon,
-    quora: QuoraIcon
+    // quora: QuoraIcon
   };
 
   return (

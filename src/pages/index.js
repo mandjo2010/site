@@ -19,9 +19,11 @@ class Index extends React.Component {
     const { data } = this.props;
     const facebook = (((data || {}).site || {}).siteMetadata || {}).facebook;
 
+
     return (
       <div>
         <Seo facebook={facebook} />
+
       </div>
     );
   }
