@@ -39,6 +39,7 @@ This page identifies authoritative sources of geospatial data and resources.
 - <a href="http://www.fao.org/geonetwork/srv/en/main.home" target="_blank">http://www.fao.org/geonetwork/srv/en/main.home</a>
 - <a href="https://inspire-geoportal.ec.europa.eu/" target="_blank">Inspire Geoportal (European Union)</a>
 - <a href="https://www.data.gov/open-gov/" target="_blank">International Open Data Site</a>
+- <a href="https://www.imf.org/en/Data/" target="_blank">International Monetary Fund</a>
 - <a href="https://cat.libraries.psu.edu/uhtbin/cgisirsi/x/0/0/57/5/3?searchdata1=11339188%7bCKEY%7d&searchfield1=GENERAL%5eSUBJECT%5eGENERAL%5e%5e&user_id=WEBSERVER" target="_blank">LandScan Global </a>
 - <a href="https://www.eastview.com/resources/landscan-faq/" target="_blank">LandScan Frequently asked questions (EastView page) </a>
 - <a href="https://www.maxar.com/open-data/" target="_blank">Maxar Open Data</a>
