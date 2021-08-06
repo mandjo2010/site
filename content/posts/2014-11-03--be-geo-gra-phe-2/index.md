@@ -46,7 +46,8 @@ This page identifies authoritative sources of geospatial data and resources.
 * <a href="https://www.eastview.com/resources/landscan-faq/" target="_blank">LandScan Frequently asked questions (EastView page) </a>
 * <a href="https://www.maxar.com/open-data/" target="_blank">Maxar Open Data</a>
 * <a href="https://censusmosaic.demog.berkeley.edu/data/historical-gis-files" target="_blank">MPIDR Population History GIS Collection</a>
-* <a href="https://www.naturalearthdata.com/" target="_blank"> Natural Earth Data </a>
+* <a href="https://www.naturalearthdata.com/" target="_blank">Natural Earth Data </a>
+* <a href="https://gis.ncdc.noaa.gov/maps/ncei/summaries/monthly/" target="_blank">National Centers for Environmental Information </a>
 * <a href="https://opentopography.org/" target="_blank">Open Topography</a>
 * <a href="http://map.openseamap.org/" target="_blank">Open Sea Map</a>
 * <a href="https://landscan.ornl.gov/" target="_blank">Oak Ridge National Laboratory (ORNL), LandScan Documentation</a>
