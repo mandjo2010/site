@@ -28,6 +28,7 @@ This page identifies authoritative sources of geospatial data and resources.
 - <a href="hhttp://www.fao.org/geonetwork/srv/en/metadata.show?uuid=ba4526fd-cdbf-4028-a1bd-5a559c4bff38&currTab=distribution" target="_blank">FAO, Global Land cover Share Database (2013</a>
 - <a href="http://www.fao.org/geonetwork/srv/en/main.home" target="_blank">FAO GeoNetwork</a>
 - <a href="http://www.fao.org/geonetwork/srv/en/main.home" target="_blank">FAO Map Catalog</a>
+- <a href="http://www.freegisdata.rtwilson.com" target="_blank">Free GIS Data</a>
 - <a href="https://gadm.org/" target="_blank">GADM (database of global administrative areas)</a>
 - <a href="https://www.geoportal.org/" target="_blank">GEO Portal</a>
 - <a href="https://www.geofabrik.de/data/download.html" target="_blank">GeoFrabrik </a>
