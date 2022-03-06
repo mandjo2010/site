@@ -13,8 +13,8 @@ module.exports = {
   authorTwitterAccount: "kozoubea",
   // info2
   infoTitle: "Mandjo Béa Boré",
-    // manifest.json
-  infoTitleNote: "GeoDesigner|GeoDeveloper",
+  // manifest.json
+  infoTitleNote: "GeoDeveloper",
   // manifest.json
   manifestName: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner",
   manifestShortName: "GeoDeveloper&Designer", // max 12 characters
@@ -26,8 +26,6 @@ module.exports = {
   contactEmail: "boremandjo@gmail.com",
   // social2
   authorSocialLinks: [
-
-
     { name: "github", url: "https://github.com/mandjo2010" },
     { name: "linkedin", url: "www.linkedin.com/in/mandjobb" },
     // { name: "quora", url: "https://www.quora.com/Mandjo-Béa-Boré" },
@@ -35,9 +33,5 @@ module.exports = {
     { name: "facebook", url: "https://facebook.com/mandjo2010" },
     { name: "email", url: "mailto:boremandjo@gmail.com" },
     { name: "twitter", url: "https://twitter.com/kozoubea" }
-
-
   ]
 };
-
-
