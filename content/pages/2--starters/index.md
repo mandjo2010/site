@@ -36,12 +36,10 @@ The same dataset has been used to develop a range of alternative thematic maps t
 
 # 3. Alaska Fire Service (AFS)
 
-AFS provides wildland fire management. I use QGIS software to access AFS's GIS  <a href="https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices" target="_blank">data Service</a> from ArcGIS Server.  
+AFS provides wildland fire management. I use QGIS software to access AFS's GIS <a href="https://fire.ak.blm.gov/arcgis/rest/services/MapAndFeatureServices" target="_blank">data Service</a> from ArcGIS Server.
 
-After exploring AFS Data in QGIS, I display fire perimeters in a category of fireseasons and apply some filter to extract  desired information from the dataset. From that analysis, I find out that in 1950, the fire called Little Black River burned the most acres from 1940(80 years) in Alaska Fire History. 
+After exploring AFS Data in QGIS, I display fire perimeters in a category of fireseasons and apply some filter to extract desired information from the dataset. From that analysis, I find out that in 1950, the fire called Little Black River burned the most acres from 1940(80 years) in Alaska Fire History.
 
 I also use the Group Stats tool in QGIS to extract data statistics (burn area and burn counts) from historic fire perimeters data of Alaska dataset.
-
-
 
 ![StyledBlog](./gatsby-styled-blog-starterrtgsig.PNG)

@@ -8,6 +8,7 @@ menuTitle: Portfolio
 
 View some of my projects <a href="https://lesprojects.gtsb.io/" target="_blank">here</a>.
 
+<!--
 # SERVICES
 
 Career Tracks:
@@ -20,4 +21,4 @@ GIS Project Manager - Data Analyst - Web Development - Python Programmer - Envir
 
 - 2013 `Geospatial Capacity Building Scholarship` , France National Center for Space Studies (CNES)
 
-- 2010 `UNESCO Scholarship of Excellence`, Interdisciplinary Programme in Sustainable Development (Paris)
+- 2010 `UNESCO Scholarship of Excellence`, Interdisciplinary Programme in Sustainable Development (Paris) -->
