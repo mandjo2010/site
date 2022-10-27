@@ -1,9 +1,9 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner", // <title>
-  shortSiteTitle: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner", // <title> ending for posts and pages
-  siteDescription: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner",
+  siteTitle: "Mandjo Béa Boré - Data analyst - Python Developer", // <title>
+  shortSiteTitle: "Mandjo Béa Boré - Data analyst - Python Developer", // <title> ending for posts and pages
+  siteDescription: "Mandjo Béa Boré - Data analyst - Python Developer",
   siteUrl: "https://mandjobore.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
@@ -14,10 +14,10 @@ module.exports = {
   // info2
   infoTitle: "Mandjo Béa Boré",
   // manifest.json
-  infoTitleNote: "GeoDeveloper",
+  infoTitleNote:    "Data analyst - Developer",
   // manifest.json
-  manifestName: "Mandjo Béa Boré - GeoDeveloper - GeoDesigner",
-  manifestShortName: "GeoDeveloper&Designer", // max 12 characters
+  manifestName: "Mandjo Béa Boré",
+  manifestShortName: "Data Analyst", // max 12 characters
   manifestStartUrl: "/blog",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,

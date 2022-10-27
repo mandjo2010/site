@@ -2,4 +2,8 @@
 title: info
 ---
 
-Design and build applications to support spatial & Geospatial data.
+
+
+
+
+Design and build applications to support data including spatial & geospatial ones.

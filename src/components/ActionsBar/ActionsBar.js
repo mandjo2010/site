@@ -1,17 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
-import injectSheet from "react-jss";
-import IconButton from "@material-ui/core/IconButton";
+import React from "react"
+import PropTypes from "prop-types"
+import injectSheet from "react-jss"
+import IconButton from "@material-ui/core/IconButton"
 
-import Link from "gatsby-link";
-import { connect } from "react-redux";
-import screenfull from "screenfull";
+import Link from "gatsby-link"
+import { connect } from "react-redux"
+import screenfull from "screenfull"
 
-import HomeIcon from "@material-ui/icons/Home";
-import SearchIcon from "@material-ui/icons/Search";
-import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
-import FullscreenIcon from "@material-ui/icons/Fullscreen";
-import FullscreenExitIcon from "@material-ui/icons/FullscreenExit";
+import HomeIcon from "@material-ui/icons/Home"
+import SearchIcon from "@material-ui/icons/Search"
+import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward"
+import FullscreenIcon from "@material-ui/icons/Fullscreen"
+import FullscreenExitIcon from "@material-ui/icons/FullscreenExit"
 
 import {
   setNavigatorPosition,
@@ -19,10 +19,10 @@ import {
   setScrollToTop,
   setFontSizeIncrease,
   setCategoryFilter
-} from "../../state/store";
-import { featureNavigator, moveNavigatorAside } from "./../../utils/shared";
-import FontSetter from "./FontSetter";
-import CategoryFilter from "./CategoryFilter";
+} from "../../state/store"
+import { featureNavigator, moveNavigatorAside } from "./../../utils/shared"
+import FontSetter from "./FontSetter"
+import CategoryFilter from "./CategoryFilter"
 
 const styles = theme => ({
   actionsBar: {
@@ -79,7 +79,7 @@ const styles = theme => ({
   button: {
     color: theme.bars.colors.icon
   }
-});
+})
 
 class ActionsBar extends React.Component {
   state = {
@@ -91,8 +91,8 @@ class ActionsBar extends React.Component {
       screenfull.on("change", () => {
         this.setState({
           fullscreen: screenfull.isFullscreen
-        });
-      });
+        })
+      })
     }
   }
 
@@ -101,28 +101,28 @@ class ActionsBar extends React.Component {
 
   fullscreenOnClick = () => {
     if (screenfull.enabled) {
-      screenfull.toggle();
+      screenfull.toggle()
     }
   };
 
   arrowUpOnClick = () => {
-    this.props.setScrollToTop(true);
+    this.props.setScrollToTop(true)
   };
 
   fontSetterOnClick = val => {
-    this.props.setFontSizeIncrease(val);
+    this.props.setFontSizeIncrease(val)
 
     if (typeof localStorage !== "undefined") {
-      localStorage.setItem("font-size-increase", val);
+      localStorage.setItem("font-size-increase", val)
     }
   };
 
   categoryFilterOnClick = val => {
-    this.props.setCategoryFilter(val);
+    this.props.setCategoryFilter(val)
   };
 
   render() {
-    const { classes, navigatorPosition, navigatorShape, isWideScreen, categories } = this.props;
+    const { classes, navigatorPosition, navigatorShape, isWideScreen, categories } = this.props
 
     return (
       <div className={classes.actionsBar}>
@@ -167,7 +167,7 @@ class ActionsBar extends React.Component {
           </IconButton>
         </div>
       </div>
-    );
+    )
   }
 }
 
@@ -181,7 +181,7 @@ ActionsBar.propTypes = {
   categories: PropTypes.array.isRequired,
   setCategoryFilter: PropTypes.func.isRequired,
   categoryFilter: PropTypes.string.isRequired
-};
+}
 
 const mapStateToProps = (state, ownProps) => {
   return {
@@ -189,8 +189,8 @@ const mapStateToProps = (state, ownProps) => {
     navigatorShape: state.navigatorShape,
     isWideScreen: state.isWideScreen,
     categoryFilter: state.categoryFilter
-  };
-};
+  }
+}
 
 const mapDispatchToProps = {
   setNavigatorPosition,
@@ -198,9 +198,9 @@ const mapDispatchToProps = {
   setScrollToTop,
   setFontSizeIncrease,
   setCategoryFilter
-};
+}
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(injectSheet(styles)(ActionsBar));
+)(injectSheet(styles)(ActionsBar))
