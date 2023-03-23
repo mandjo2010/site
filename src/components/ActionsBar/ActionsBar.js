@@ -29,7 +29,7 @@ const styles = theme => ({
     position: "absolute",
     background: theme.bars.colors.background,
     left: 0,
-    //top: `calc(100vh - ${theme.bars.sizes.actionsBar}px)`,
+    top: `calc(100vh - ${theme.bars.sizes.actionsBar}px)`,
     bottom: 0,
     display: "flex",
     flexDirection: "row",
