@@ -6,4 +6,4 @@ title: info
 
 
 
-Design, buil and deploy applications to support data.
+Design, build and deploy applications to support data.
