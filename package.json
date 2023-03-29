@@ -83,5 +83,10 @@
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.5",
     "screenfull": "^3.3.2"
-  }
+  },
+
+    "engines": {
+        "node": "8.17.0"
+ }
 }
+
