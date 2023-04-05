@@ -1,6 +1,0 @@
-[build]
-  command = "yarn build"
-  environment = {
-    NODE_VERSION = "8.17.0",
-    NPM_VERSION = "6.13.4"
-  }
