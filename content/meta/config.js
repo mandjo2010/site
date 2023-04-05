@@ -14,7 +14,7 @@ module.exports = {
   // info2
   infoTitle: "Mandjo Béa Boré",
   // manifest.json
-  infoTitleNote:    "Data analyst - Developer",
+  infoTitleNote: "Data analyst - Developer",
   // manifest.json
   manifestName: "Mandjo Béa Boré",
   manifestShortName: "Data Analyst", // max 12 characters
