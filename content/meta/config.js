@@ -27,7 +27,7 @@ module.exports = {
   // social2
   authorSocialLinks: [
     { name: "github", url: "https://github.com/mandjo2010" },
-    { name: "linkedin", url: "www.linkedin.com/in/mandjobb" },
+    { name: "linkedin", url: "https://linkedin.com/in/mandjobb" },
     // { name: "quora", url: "https://www.quora.com/Mandjo-Béa-Boré" },
     // { name: "medium", url: "https://medium.com/@nestormandjo" },
     { name: "facebook", url: "https://facebook.com/mandjo2010" },
