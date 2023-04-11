@@ -12,8 +12,6 @@ import EmailIcon from "!svg-react-loader!../../images/svg-icons/email.svg?name=E
 // import MediumIcon from "!svg-react-loader!../../images/svg-icons/medium.svg?name=MediumIcon";
 // import QuoraIcon from "!svg-react-loader!../../images/svg-icons/quora.svg?name=QuoraIcon";
 
-
-
 const styles = theme => ({
   social: {
     display: "flex",
@@ -43,7 +41,6 @@ const styles = theme => ({
     "&[title='github']": {
       "& svg": {
         fill: "#966588"
-
       }
     },
 
@@ -74,12 +71,10 @@ const styles = theme => ({
     },
     "&[title='quora']:hover": {
       "& svg": {
-        fill: "#b92b27",
-
+        fill: "#b92b27"
       }
     }
   }
-
 });
 
 const Socialcons = props => {
@@ -91,7 +86,7 @@ const Socialcons = props => {
     github: GithubIcon,
     email: EmailIcon,
     // medium: MediumIcon,
-    linkedin: LinkedinIcon,
+    linkedin: LinkedinIcon
     // quora: QuoraIcon
   };
 
