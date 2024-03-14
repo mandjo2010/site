@@ -46,17 +46,6 @@ module.exports = {
     }
   },
   plugins: [
-    `gatsby-plugin-react-next`,
-    // {
-    //   resolve: `gatsby-plugin-algolia`,
-    //   options: {
-    //     appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-    //     apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-    //     indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
-    //     queries,
-    //     chunkSize: 10000 // default: 1000
-    //   }
-    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -158,7 +147,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: "ANALYTIC_ID",//process.env.GOOGLE_ANALYTICS_ID,
         head: true,
         anonymize: true
       }
