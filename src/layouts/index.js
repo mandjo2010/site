@@ -1,6 +1,5 @@
 import React from "react";
 import injectSheet from "react-jss";
-import { MuiThemeProvider } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
@@ -8,7 +7,7 @@ import withRoot from "../withRoot";
 
 import theme from "../styles/theme";
 import globals from "../styles/globals";
-
+import { graphql, useStaticQuery } from "gatsby";
 
 import { setFontSizeIncrease, setIsWideScreen } from "../state/store";
 
@@ -24,25 +23,26 @@ import { isWideScreen, timeoutThrottlerHandler } from "../utils/helpers";
 const InfoBox = asyncComponent(
   () =>
     import("../components/InfoBox/")
-      .then(module => {
+      .then((module) => {
         return module;
       })
-      .catch(error => {}),
+      .catch((error) => { }),
   <Loading
     overrides={{ width: `${theme.info.sizes.width}px`, height: "100vh", right: "auto" }}
     afterRight={true}
-  />
+  />,
 );
 
 class Layout extends React.Component {
   timeouts = {};
   categories = [];
-
+  data = {};
   componentDidMount() {
     this.props.setIsWideScreen(isWideScreen());
     if (typeof window !== "undefined") {
       window.addEventListener("resize", this.resizeThrottler, false);
     }
+    this.data = useStaticQuery(query);
   }
 
   componentWillMount() {
@@ -79,8 +79,8 @@ class Layout extends React.Component {
   };
 
   render() {
-    const { children, data } = this.props;
-
+    const { children } = this.props;
+    const data = this.data;
     // TODO: dynamic management of tabindexes for keybord navigation
     return (
       <LayoutWrapper>
@@ -100,51 +100,46 @@ Layout.propTypes = {
   setIsWideScreen: PropTypes.func.isRequired,
   isWideScreen: PropTypes.bool.isRequired,
   fontSizeIncrease: PropTypes.number.isRequired,
-  setFontSizeIncrease: PropTypes.func.isRequired
+  setFontSizeIncrease: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = (state, ownProps) => {
   return {
     pages: state.pages,
     isWideScreen: state.isWideScreen,
-    fontSizeIncrease: state.fontSizeIncrease
+    fontSizeIncrease: state.fontSizeIncrease,
   };
 };
 
 const mapDispatchToProps = {
   setIsWideScreen,
-  setFontSizeIncrease
+  setFontSizeIncrease,
 };
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(withRoot(injectSheet(globals)(Layout)));
+export default connect(mapStateToProps, mapDispatchToProps)(withRoot(injectSheet(globals)(Layout)));
 
 //eslint-disable-next-line no-undef
-export const guery = graphql`
-  query LayoutQuery {
-    posts: allMarkdownRemark(
-      filter: { id: { regex: "//posts//" } }
-      sort: { fields: [fields___prefix], order: DESC }
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-            prefix
-          }
-          frontmatter {
-            title
-            subTitle
-            category
-            cover {
-              children {
-                ... on ImageSharp {
-                  resolutions(width: 90, height: 90) {
-                    ...GatsbyImageSharpResolutions_withWebp_noBase64
-                  }
+const query = graphql`query LayoutQuery {
+  posts: allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "//posts//"}}
+    sort: {fields: {prefix: DESC}}
+  ) {
+    edges {
+      node {
+        excerpt
+        fields {
+          slug
+          prefix
+        }
+        frontmatter {
+          title
+          subTitle
+          category
+          cover {
+            children {
+              ... on ImageSharp {
+                fluid(maxWidth: 90, maxHeight: 90) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
@@ -152,32 +147,32 @@ export const guery = graphql`
         }
       }
     }
-    pages: allMarkdownRemark(
-      filter: { id: { regex: "//pages//" }, fields: { prefix: { regex: "/^\\d+$/" } } }
-      sort: { fields: [fields___prefix], order: ASC }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            prefix
-          }
-          frontmatter {
-            title
-            menuTitle
-          }
+  }
+  pages: allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "//pages//"}, fields: {prefix: {regex: "/^\\d+$/"}}}
+    sort: {fields: {prefix: ASC}}
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+          prefix
         }
-      }
-    }
-    parts: allMarkdownRemark(filter: { id: { regex: "//parts//" } }) {
-      edges {
-        node {
-          html
-          frontmatter {
-            title
-          }
+        frontmatter {
+          title
+          menuTitle
         }
       }
     }
   }
-`;
+  parts: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "//parts//"}}) {
+    edges {
+      node {
+        html
+        frontmatter {
+          title
+        }
+      }
+    }
+  }
+}`;

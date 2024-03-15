@@ -12,7 +12,7 @@ import createStore from "./src/state/store";
 //   ssStyles && ssStyles.parentNode.removeChild(ssStyles);
 // };
 
-const replaceRouterComponent = ({ history }) => {
+const wrapRootElement = ({ history }) => {
   const store = createStore();
 
   const ConnectedRouterWrapper = ({ children }) => (
@@ -25,6 +25,6 @@ const replaceRouterComponent = ({ history }) => {
     children: PropTypes.object.isRequired
   };
 
-  return ConnectedRouterWrapper;
+  return ConnectedRouterWrapper
 };
-export replaceRouterComponent;
+export {wrapRootElement};

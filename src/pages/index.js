@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import { setNavigatorPosition, setNavigatorShape } from "../state/store";
 import { featureNavigator } from "../utils/shared";
 import Seo from "../components/Seo";
-
+import { graphql } from "gatsby";
 class Index extends React.Component {
   featureNavigator = featureNavigator.bind(this);
 
@@ -21,10 +21,10 @@ class Index extends React.Component {
 
 
     return (
-      <div>
+      <Layout>
         <Seo facebook={facebook} />
 
-      </div>
+      </Layout>
     );
   }
 }

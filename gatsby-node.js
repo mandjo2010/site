@@ -6,8 +6,8 @@ const path = require("path");
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const { store } = require(`./node_modules/gatsby/dist/redux`);
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` });
     const separtorIndex = ~slug.indexOf("--") ? slug.indexOf("--") : 0;
@@ -25,20 +25,19 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   }
 };
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions;
 
-  return new Promise((resolve, reject) => {
-    const postTemplate = path.resolve("./src/templates/PostTemplate.js");
-    const pageTemplate = path.resolve("./src/templates/PageTemplate.js");
-    resolve(
-      graphql(
+    const postTemplate = require.resolve("./src/templates/PostTemplate.js");
+    const pageTemplate = require.resolve("./src/templates/PageTemplate.js");
+    const result = await graphql(
         `
           {
-            allMarkdownRemark(filter: { id: { regex: "//posts|pages//" } }, limit: 1000) {
+            allMarkdownRemark(filter: { fileAbsolutePath: { regex: "//posts|pages//" } }, limit: 1000) {
               edges {
                 node {
                   id
+                  fileAbsolutePath
                   fields {
                     slug
                     prefix
@@ -48,16 +47,16 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             }
           }
         `
-      ).then(result => {
+      )
         if (result.errors) {
           console.log(result.errors);
-          reject(result.errors);
         }
 
         // Create posts and pages.
         _.each(result.data.allMarkdownRemark.edges, edge => {
           const slug = edge.node.fields.slug;
-          const isPost = /posts/.test(edge.node.id);
+          const isPost = /posts/.test(edge.node.fileAbsolutePath);
+          console.log({ slug, isPost });
 
           createPage({
             path: slug,
@@ -67,12 +66,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             }
           });
         });
-      })
-    );
-  });
 };
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
+exports.onCreateWebpackConfig= ({ config, stage }) => {
   switch (stage) {
     case "build-javascript":
       {
@@ -107,11 +103,4 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
       break;
   }
   return config;
-};
-
-exports.modifyBabelrc = ({ babelrc }) => {
-  return {
-    ...babelrc,
-    plugins: babelrc.plugins.concat([`syntax-dynamic-import`, `dynamic-import-webpack`])
-  };
 };
