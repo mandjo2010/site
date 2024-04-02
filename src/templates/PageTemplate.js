@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-
+import { graphql } from "gatsby";
 import { setNavigatorPosition, setNavigatorShape } from "../state/store";
 import { moveNavigatorAside } from "../utils/shared";
 import Main from "../components/Main/";
 import Page from "../components/Page/";
 import Footer from "../components/Footer/";
 import Seo from "../components/Seo";
+import Layout from "../layouts";
 
 class PageTemplate extends React.Component {
   moveNavigatorAside = moveNavigatorAside.bind(this);
@@ -23,11 +24,12 @@ class PageTemplate extends React.Component {
     const facebook = (((data || {}).site || {}).siteMetadata || {}).facebook;
 
     return (
-      <Main>
-        <Page page={data.page} />
-        <Footer footnote={data.footnote} />
-        <Seo data={data.post} facebook={facebook} />
-      </Main>
+      <Layout>
+        <Main>
+          <Page page={data.page} />
+          <Seo data={data.post} facebook={facebook} />
+        </Main>
+      </Layout>
     );
   }
 }
@@ -62,10 +64,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
       }
-    }
-    footnote: markdownRemark(id: { regex: "/footnote/" }) {
-      id
-      html
     }
     site {
       siteMetadata {

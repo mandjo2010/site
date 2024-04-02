@@ -11,7 +11,7 @@ import theme from "./src/styles/theme";
 
 
 
-exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
+const replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
   const pageContext = getPageContext();
   const store = createStore();
 
@@ -40,11 +40,7 @@ exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadCompon
   ]);
 };
 
-exports.onRenderBody = ({ setHeadComponents }) => {
-  return setHeadComponents([]);
-};
-
-exports.onRenderBody = ({ setPostBodyComponents }) => {
+const onRenderBody = ({ setPostBodyComponents }) => {
   return setPostBodyComponents([
     <script
       key={`webfontsloader-setup`}
@@ -66,3 +62,5 @@ exports.onRenderBody = ({ setPostBodyComponents }) => {
     />
   ]);
 };
+
+export { replaceRenderer, onRenderBody };

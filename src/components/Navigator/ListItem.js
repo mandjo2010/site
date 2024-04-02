@@ -1,5 +1,5 @@
+import { Link } from "gatsby";
 import React from "react";
-import Link from "gatsby-link";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
 import LazyLoad from "react-lazyload";

@@ -1,7 +1,7 @@
+import { Link } from "gatsby";
 import React from "react";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
-import Link from "gatsby-link";
 import IconButton from "@material-ui/core/IconButton";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";

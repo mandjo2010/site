@@ -2,14 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import Main from "../components/Main/";
 import { connect } from "react-redux";
-require("core-js/fn/array/find");
-require("prismjs/themes/prism-okaidia.css");
+import "prismjs/themes/prism-okaidia.css"
 
 import { setNavigatorPosition, setNavigatorShape } from "../state/store";
 import { moveNavigatorAside } from "../utils/shared";
 import Post from "../components/Post/";
 import Footer from "../components/Footer/";
 import Seo from "../components/Seo";
+import { graphql } from "gatsby";
+import Layout from "../layouts";
 
 class PostTemplate extends React.Component {
   moveNavigatorAside = moveNavigatorAside.bind(this);
@@ -25,11 +26,13 @@ class PostTemplate extends React.Component {
     const facebook = (((data || {}).site || {}).siteMetadata || {}).facebook;
 
     return (
-      <Main>
-        <Post post={data.post} slug={pathContext.slug} author={data.author} facebook={facebook} />
-        <Footer footnote={data.footnote} />
-        <Seo data={data.post} facebook={facebook} />
-      </Main>
+      <Layout>
+        <Main>
+          <Post post={data.post} slug={pathContext.slug} author={data.author} facebook={facebook} />
+          <Footer footnote={data.footnote} />
+          <Seo data={data.post} facebook={facebook} />
+        </Main>
+      </Layout>
     );
   }
 }
@@ -79,11 +82,11 @@ export const postQuery = graphql`
         }
       }
     }
-    author: markdownRemark(id: { regex: "/author/" }) {
+    author: markdownRemark(fileAbsolutePath: { regex: "/author/" }) {
       id
       html
     }
-    footnote: markdownRemark(id: { regex: "/footnote/" }) {
+    footnote: markdownRemark(fileAbsolutePath: { regex: "/footnote/" }) {
       id
       html
     }

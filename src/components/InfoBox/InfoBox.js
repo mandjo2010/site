@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import injectSheet from "react-jss";
 import { connect } from "react-redux";
-require("core-js/fn/array/find");
 
 import SocialIcons from "./SocialIcons";
 import InfoMenu from "./InfoMenu";
@@ -71,7 +70,7 @@ class InfoBox extends React.Component {
 
     return (
       <aside
-        className={`${classes.infoBox} ${navigatorPosition ? navigatorPosition : ""} 
+        className={`${classes.infoBox} ${navigatorPosition ? navigatorPosition : ""}
         ${navigatorShape ? navigatorShape : ""}`}
       >
         {info && (

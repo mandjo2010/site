@@ -12,18 +12,15 @@ import createStore from "./src/state/store";
 //   ssStyles && ssStyles.parentNode.removeChild(ssStyles);
 // };
 
-exports.replaceRouterComponent = ({ history }) => {
+const wrapRootElement = ({ history }) => {
   const store = createStore();
 
-  const ConnectedRouterWrapper = ({ children }) => (
-    <Provider store={store}>
-      <Router history={history}>{children}</Router>
-    </Provider>
-  );
+  const ConnectedRouterWrapper = ({ children }) => <Provider store={store}>{children}</Provider>;
 
   ConnectedRouterWrapper.propTypes = {
-    children: PropTypes.object.isRequired
+    children: PropTypes.object.isRequired,
   };
 
   return ConnectedRouterWrapper;
 };
+export { wrapRootElement };
